@@ -1,0 +1,119 @@
+
+
+@font-face
+{
+    
+    src: url("../fonts/PressStart2P-Regular.eot"),
+         url("../fonts/PressStart2P-Regular.ttf"),
+         url("../fonts/PressStart2P-Regular.woff");
+    font-family: arcade;
+}
+
+body
+{
+   background-image: url('../img/background.png');
+   background-size: cover;
+}
+
+.title
+{
+    font-size: 100pt;
+    font-family: arcade;
+    color: white;
+}
+
+.thanks
+{
+    font-size: 50pt;
+    font-family: arcade;
+    color: white;
+}
+
+.padding 
+{
+    padding-top: 95px;
+    padding-bottom: 45px;
+}
+
+.padding2
+{
+    padding-bottom: 25px;
+}
+
+.text-custom {
+  color: #fff;
+  font-family: arcade;
+  font-size: 15pt;
+  
+}
+
+
+.btn-custom {
+  color: #fff;
+  font-family: arcade;
+  font-size: 15pt;
+  background-color: transparent;
+  border-color: transparent;
+  
+}
+
+.btn-custom:hover {
+  color: #0066ff;
+  font-family: arcade;
+  font-size: 15pt;
+  background-color: transparent;
+  border-color: transparent;
+  
+}
+
+.btn-xs, .btn-group-xs > .btn {
+  padding: 0;
+  font-size: 15pt;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+
+.btn-custom2
+{
+  color: #fff;
+  font-family: arcade;
+  font-size: 22pt;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-custom2:hover
+{
+  color: #0066ff;
+  font-family: arcade;
+  font-size: 22pt;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.footer
+{
+    position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;	
+
+}
+
+
+.instruction
+{
+    color: white;
+    font-family: arcade;
+    font-size: 12.5pt;
+}
+
+ canvas{
+                display: block;
+                margin: 0 auto;
+            }
+            

@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+        <title>RETRY?</title>
+ 
+    </head>
+    <body>
+	
+	   <!--This is the game over screen after the player has lost, it has a retry option with a countdown added, 
+	       If the timer reaches 0, a message is prompted to appear with a return to the homescreen-->
+        <div class="text-center padding">
+      
+        <script>
+        function countDown(secs,elem) {
+	var element = document.getElementById(elem);
+	element.innerHTML = '<div class="text-custom"> Play Again? <br><br>' + secs + "&nbsp;<br><br></div>";
+        element.innerHTML += '<a class= "btn btn-custom btn-xs" href="snake.html">YES</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+
+        element.innerHTML += '<a class= "btn btn-custom btn-xs" href="thank.html">NO</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp';
+	if(secs < 1) {
+		clearTimeout(timer);
+		element.innerHTML = '<div class="thanks">Thank You For Playing!</div>';
+		
+	}
+	secs--;
+	var timer = setTimeout('countDown('+secs+',"'+elem+'")',1000);
+        
+        }
+        
+        function myFunction(){	
+        window.location.href = "index.html";
+        }
+        
+        window.setTimeout(myFunction,15000)
+        
+        </script>
+       <div id="status"></div>
+       <script>countDown(10,"status");
+       </script>
+        </div>
+    </body>
+</html>

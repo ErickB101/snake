@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+        <title>RETRY?</title>
+		
+		<!--This is the thank you page after the user selects no,
+		    it has a timer mechanism where it would return to the homepage after a certain amount of time-->
+        <script>
+        function myFunction(){	
+        window.location.href = "index.html";
+        }
+        
+        window.setTimeout(myFunction,3000)
+    
+            
+        </script>
+<div id="status"></div>
+<script>countDown(10,"status");</script>
+    </head>
+    <body>
+        
+        <div class="text-center padding thanks">
+        Thank You For Playing!
+        </div>
+        
+    </body>
+</html>
