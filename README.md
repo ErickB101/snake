@@ -1,1 +1,1 @@
-# snake
+Thank you for visiting and wishing to check out my snake website code, all the info needed to understand the sections I contributed or partially contributed in are written as comments inside the html and css files. Through this I learned how to implement bootstrap, how to improve my css design skills, and the basics of adding a timer mechanic. This project helped me realize certain tips and tricks that I never had considered before, as well as how it is to work with a partner.
